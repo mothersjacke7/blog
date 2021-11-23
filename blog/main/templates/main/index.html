@@ -6,11 +6,13 @@
 
 {% block content %}
     <h1>Привет!</h1>
+    <img src="https://sun9-69.userapi.com/impg/pGVkygjtWWd9lwOWVLKjJK7vpkwY0aTvQT7Gmw/zCITDj1-3To.jpg?size=1440x1439&quality=96&sign=2ef143ae48e982332ade328d276769e5&type=album" height="500px" width="500px" alt="me">
     {% for el in tasks %}
         <div class="alert mt-2">
             <h3>{{ el.title }}</h3>
             <p>{{ el.task }}</p>
         </div>
     {% endfor %}
+
 {% endblock %}
 
